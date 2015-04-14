@@ -1,9 +1,29 @@
-.svg {
-	width: 25%;
+
+/* New Browser */
+html.svg #svg-logo {
+	width: 30%;
+}
+
+
+html.no-svg #svg-logo {
+	display: none;
+}
+
+
+/* Older Browser */
+html.svg #png-logo {
+	display: none;
+}
+
+
+html.no-svg #png-logo {
+	background: red;
 }
 
 
 
+
+/*
 html.no-svg .nay,
 html.no-touch .nay {
 	color: orange;
@@ -24,3 +44,4 @@ html.svg .nay
 html.touch .nay{
 	display: none;
 }
+*/
