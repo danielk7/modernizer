@@ -5,13 +5,13 @@ html.svg #svg-logo {
 }
 
 
-html.no-svg #svg-logo {
+html.no-svg #png-logo {
 	display: none;
 }
 
 
 /* Older Browser */
-html.svg #png-logo {
+html.svg #svg-logo {
 	display: none;
 }
 
